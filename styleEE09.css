@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: grid;
+  place-items: center;
+  background: #0f1000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    transition-duration: 0.3s;
+    box-decoration-break: clone;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.nav ul:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    transition-duration: 0.3s;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: #fcfec1;
+    width: 200px;
+    display: block;
+    padding:12px;
+    margin: 0px;
+    font-size: 22px;
+    transition-duration: 0.3s;
+    text-decoration-line: none;
+    font-variant-caps:all-petite-caps;
+    text-shadow: 2px 2px 3px #000000;
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(252, 254, 193, 0);
+}
+.nav a:hover{
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(252, 254, 193, 100);
+    background-color:rgba(0, 0, 0, 0.5);
+    transition-duration: 0.3s;
+    font-weight: bolder;
+}
+
+#main{
+    text-align: left;
+    max-width: 900px;
+    min-width: 900px;
+    padding: 20px;
+    background-color: #0f1000;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+}
+#main:hover{
+    background-color: #171800;
+    transition-duration: 0.3s;
+}
+p{
+    font-size: 20px;
+    color: #fcfec1;
+    vertical-align: middle;
+}
+#question{
+    font-size: 20px;
+    color: #fcfec1;
+    min-height: 110px;
+        vertical-align: middle;
+}
+#quenum{
+    color: #fcfec1;
+    clear: both;
+    font-size: 12px;
+    min-height: 20px;
+    margin-bottom: 12px;
+    border-bottom: 0.5px;
+    border-bottom-color: #f6ff47;
+    border-bottom-style: dashed;
+    opacity: 75%;
+    transition-duration: 0.3s;
+}
+#quenum:hover{
+    opacity: 100%;
+    transition-duration: 0.3s;
+}
+
+#answerbox{
+    margin-bottom: 20px;
+}
+
+#answer{
+    color: #fcfec1;
+    float: left;
+    padding: 15px;
+    min-width: 420px;
+    max-width: 420px;
+    margin-bottom: 16px;
+    background-color: #1f2000;
+    transition-duration: 0.3s;
+}
+#answer:hover{
+    background-color: #555900;
+    transition-duration: 0.3s;
+}
+#imgque{
+    color: #fcfec1;
+    text-align: center;
+    min-height: 450px;
+    vertical-align: middle;
+}
