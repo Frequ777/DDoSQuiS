@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: grid;
+  place-items: center;
+  background: #101010;
+  font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.nav{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    transition-duration: 0.3s;
+    box-decoration-break: clone;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.nav ul:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    transition-duration: 0.3s;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: #c7c7c7;
+    width: 200px;
+    display: block;
+    padding:12px;
+    margin: 0px;
+    font-size: 22px;
+    transition-duration: 0.3s;
+    text-decoration-line: none;
+    font-variant-caps:all-petite-caps;
+    text-shadow: 2px 2px 3px #000000;
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224, 0);
+}
+.nav a:hover{
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224, 100);
+    background-color:rgba(0, 0, 0, 0.5);
+    transition-duration: 0.3s;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    color: #c7c7c7;
+    vertical-align: middle;
+}
+
+#main{
+    text-align: center;
+    max-width: 900px;
+    min-width: 900px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 16px;
+}
+#main:hover{
+    background-color: #363636;
+    transition-duration: 0.3s;
+}
+label{
+    margin: 0px;
+}
+input{
+    margin: 0px;
+}
+#answer{
+    float: left;
+    width: 20%;
+    height: 40px;
+}
+#quest{
+    float: left;
+    width: 50%;
+}
+#type{
+    clear: both;
+    text-align: center;
+}
+#settin{
+    float: left;
+    width: 33%;
+}
